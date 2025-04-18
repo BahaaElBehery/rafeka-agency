@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Regular Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Light Italic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade SemiBold Italic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Bold Italic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade Extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Regrade";
+  src: url("./fonts/Neue Regrade ExtraBold Italic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Expo Arabic";
+  src: url("./fonts/ExpoArabic-Book.ttf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+body[dir="ltr"] {
+  font-family: "Neue Regrade" !important;
+}
+
+body[dir="rtl"] {
+  font-family: "Expo Arabic" !important;
+}
