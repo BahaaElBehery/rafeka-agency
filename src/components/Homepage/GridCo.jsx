@@ -1,5 +1,3 @@
-import React from "react";
-
 const GridCo = (Props) => {
   return (
     <div className="border rounded-2xl flex flex-col items-center justify-evenly py-10 px-5 relative mt-10">

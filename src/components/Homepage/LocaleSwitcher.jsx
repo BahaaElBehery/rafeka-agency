@@ -4,11 +4,13 @@ export const LocaleSwitcher = () => {
   const { i18n } = useTranslation();
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
-    document.dir = lng === "ar" ? "rtl" : "ltr"; // لتغيير اتجاه الصفحة
+    document.body.style.direction = lng === "ar" ? "rtl" : "ltr"; // لتغيير اتجاه الصفحة
+    document.documentElement.lang = lng;
   };
   return (
     <button
       onClick={() => changeLanguage(i18n.language === "ar" ? "en" : "ar")}
+      className="cursor-pointer"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -16,10 +18,10 @@ export const LocaleSwitcher = () => {
         height="24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-globe"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="feather feather-globe cursor-pointer"
       >
         <circle cx="12" cy="12" r="10" />
         <line x1="2" y1="12" x2="22" y2="12" />

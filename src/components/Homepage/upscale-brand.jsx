@@ -1,5 +1,3 @@
-import React from "react";
-
 const upscaleBrand = () => {
   return (
     <div className="mt-36  flex flex-col items-center relative">
