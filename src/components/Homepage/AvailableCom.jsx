@@ -1,5 +1,3 @@
-import React from "react";
-
 const AvailableCom = (Props) => {
   return (
     <div className="w-11/12 mx-auto flex flex-col items-center justify-evenly mt-50 max-lg:mt-20 border p-5 rounded-2xl">

@@ -1,5 +1,3 @@
-import React from "react";
-
 const FeaturedCom = () => {
   return (
     <div className="flex flex-col items-center mt-50 max-lg:hidden">

@@ -1,4 +1,3 @@
-import React from "react";
 import FooterB from "./FooterB";
 
 const Rafeka = () => {

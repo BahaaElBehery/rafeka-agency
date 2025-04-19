@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Homepage/Header";
 import Sora2 from "./Sora2";
 import DevelopmentCo from "../Homepage/DevelopmentCo";
