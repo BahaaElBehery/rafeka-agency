@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Header from "./Header";
-import UpscaleBrand from "./Upscale-brand";
+import UpscaleBrand from "./upscale-brand";
 import PhotosCo from "./PhotosCo";
 import AfterContact from "./AfterContact";
 import PassionCo from "./PassionCo";
