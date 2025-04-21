@@ -4,7 +4,7 @@ import RafeksStatsCo from "./RafeksStatsCo";
 const RafekaStatsAll = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="w-11/12 mx-auto mt-20">
+    <div className="w-11/12 mx-auto mt-20 max-w-[1920px]">
       <h2 className="text-7xl max-sm:text-5xl font-medium mt-20 text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff] text-center">
         {t("Rafeka Stats")}
       </h2>

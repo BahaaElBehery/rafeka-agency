@@ -4,7 +4,7 @@ import DevelopCom from "../ProjectsP/DevelopCom";
 const Upsevice = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="w-11/12 mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-10 mt-20">
+    <div className="w-11/12 max-w-[1920px] mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-10 mt-20">
       <DevelopCom
         img="/Image-Zfta.png"
         title={t("Analytics and Reporting")}

@@ -5,7 +5,7 @@ import Text from "./Text";
 const SecHow = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="w-9/12 max-sm:w-11/12 mx-auto flex flex-col items-center mt-20">
+    <div className="w-9/12 max-w-[1920px] max-sm:w-11/12 mx-auto flex flex-col items-center mt-20">
       <Text
         title={t("FAQ")}
         p={t(

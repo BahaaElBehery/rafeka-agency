@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const Input = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="w-10/12 mx-auto mt-20">
+    <div className="w-10/12 max-w-[1920px] mx-auto mt-20">
       <h2 className="text-center text-4xl max-sm:text-2xl">
         {t("Send Us a Message")}
       </h2>

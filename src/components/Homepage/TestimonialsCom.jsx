@@ -17,7 +17,7 @@ const TestimonialsCom = () => {
         </h3>
       </div>
 
-      <div className="w-10/12 max-lg:w-fit max-sm:px-10 mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-20 mt-15">
+      <div className="w-10/12 max-w-[1920px] max-lg:w-fit max-sm:px-10 mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-20 mt-15">
         <TestmonialSec
           title={t(
             "Rafeka transformed our online store into a sleek, user-friendly platform. Our sales skyrocketed by 35% in just three months! Their teamis professional, creative, and incredibly responsive."

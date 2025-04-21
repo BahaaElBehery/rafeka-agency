@@ -6,7 +6,7 @@ const ServiceFAQS = () => {
   const { t } = useTranslation(`translation`);
   return (
     <>
-      <div className="flex flex-col items-center justify-center mt-20">
+      <div className="flex flex-col max-w-[1920px] items-center justify-center mt-20">
         <Text
           title={t("Service FAQs")}
           p={t(
@@ -15,7 +15,7 @@ const ServiceFAQS = () => {
         />
       </div>
 
-      <div className="w-11/12 mx-auto flex flex-col items-center">
+      <div className="w-11/12 max-w-[1920px] mx-auto flex flex-col items-center">
         <HowCom
           title={t("What is included in your SEO services?")}
           p={t(

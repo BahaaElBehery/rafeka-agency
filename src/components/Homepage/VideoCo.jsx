@@ -32,7 +32,7 @@ const VideoCo = () => {
   const shouldShowButton = !isPlaying || isHovered;
 
   return (
-    <div className="w-10/12 mx-auto h-screen max-lg:h-fit rounded-2xl mt-20 max-md:mt-0">
+    <div className="w-10/12 max-w-[1920px] mx-auto h-screen max-lg:h-fit rounded-2xl mt-20 max-md:mt-0">
       <div
         className="relative h-full max-w-full rounded-2xl overflow-hidden shadow-lg group flex items-center justify-center"
         onMouseEnter={() => setIsHovered(true)}

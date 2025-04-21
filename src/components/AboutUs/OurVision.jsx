@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const OurVision = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="mx-auto flex flex-col items-center justify-center mt-20 min-lg:mt-40 ">
+    <div className="mx-auto flex flex-col items-center justify-center mt-20 min-lg:mt-40 max-w-[1920px]">
       <h2 className="text-7xl max-lg:text-5xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff]">
         {t("Our Vision")}
       </h2>

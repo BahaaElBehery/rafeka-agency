@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const PassionCo = () => {
   const { t } = useTranslation("translation");
   return (
-    <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-8 w-9/12 max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center mx-auto mt-36">
+    <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-8 w-9/12 max-lg:flex max-lg:flex-col max-lg:items-center max-lg:justify-center mx-auto mt-36 max-w-[1920px]">
       <div className="w-fit border border-white rounded-md">
         <img
           src="/rafeka-about-img.jpeg"

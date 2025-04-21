@@ -5,11 +5,12 @@ const CallUs = () => {
   const { t } = useTranslation(`translation`);
   return (
     <div
-      className="w-9/12 mx-auto mt-10 grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5"
+      className="w-9/12 max-w-[1920px] mx-auto mt-10 grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5"
       dir="ltr"
     >
       <CallCom
         text={t("Phone Number")}
+        link={`https://wa.me/905380330087`}
         num="+90 536 488 66 76"
         img="call-1.png"
       />

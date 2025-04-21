@@ -4,7 +4,7 @@ import Grid2 from "./Grid2";
 const EcommerceCom = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="w-10/12 mx-auto mt-32">
+    <div className="w-10/12 max-w-[1920px] mx-auto mt-32">
       <h2 className="text-7xl max-md:text-5xl max-sm:text-3xl text-center font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff]">
         {t("E-Commerce Marketing")}
       </h2>
