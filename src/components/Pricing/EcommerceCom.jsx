@@ -1,83 +1,85 @@
+import { useTranslation } from "react-i18next";
 import Grid2 from "./Grid2";
 
 const EcommerceCom = () => {
+  const { t } = useTranslation(`translation`);
   return (
     <div className="w-10/12 mx-auto mt-32">
-      <h2 className="text-7xl max-md:text-5xl max-sm:text-3xl text-center font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#424D50]">
-        E-Commerce Marketing
+      <h2 className="text-7xl max-md:text-5xl max-sm:text-3xl text-center font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff]">
+        {t("E-Commerce Marketing")}
       </h2>
 
       <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 mt-10">
         <Grid2
-          name="Basic Package"
+          name={t("Basic Package")}
           num="$999"
           space="mt-32 flex items-center justify-between"
           features={[
             {
-              text: "Basic online store setup",
+              text: t("Basic online store setup"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Up to 20 products",
+              text: t("Up to 20 products"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Standard payment integration",
+              text: t("Standard payment integration"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
           ]}
         />
         <Grid2
-          name="Plus Package"
+          name={t("Plus Package")}
           num="$1999"
           space="mt-18 flex items-center justify-between"
           features={[
             {
-              text: "Advanced Store setup",
+              text: t("Advanced Store setup"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Up to 50 products",
+              text: t("Up to 50 products"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Advanced payment integration",
+              text: t("Advanced payment integration"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Product optimization",
+              text: t("Product optimization"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
 
             {
-              text: "Application setup",
+              text: t("Application setup"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
           ]}
         />
         <Grid2
-          name="Pro Package"
+          name={t("Pro Package")}
           num="$2999"
           space="mt-20 flex items-center justify-between"
           features={[
             {
-              text: "Full store setup",
+              text: t("Full store setup"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Unlimited products",
+              text: t("Unlimited products"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Custom payment integration",
+              text: t("Custom payment integration"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Advanced product optimization",
+              text: t("Advanced product optimization"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
             {
-              text: "Advanced application setup",
+              text: t("Advanced application setup"),
               dotClass: "w-2 h-2 bg-red-500 rounded-full",
             },
           ]}
@@ -86,7 +88,7 @@ const EcommerceCom = () => {
 
       <div className="flex items-center justify-center bg-[#d31f1f] *:cursor-pointer w-fit mx-auto mt-5 px-10 py-2 rounded-full cursor-pointer">
         <img src="/arrow-right.png" alt="arrow" className="mr-3" />
-        <button>Most Ordered</button>
+        <button>{t("Most Ordered")}</button>
       </div>
     </div>
   );

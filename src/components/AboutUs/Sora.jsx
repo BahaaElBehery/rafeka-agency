@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 const Sora = () => {
+  const { t } = useTranslation(`translation`);
   return (
     <div
       className="relative w-full h-[80vh] max-lg:h-[400px] bg-[url('/masterminds-1.png')] bg-no-repeat max-lg:bg-contain"
@@ -10,8 +13,8 @@ const Sora = () => {
         className="w-full h-full py-10 relative -z-50 max-lg:hidden"
       />
       {/* Centered Text */}
-      <h2 className="absolute inset-0 max-md:text-5xl flex items-start mt-10 justify-center text-7xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#424D50] z-50">
-        About Us
+      <h2 className="absolute inset-0 max-md:text-5xl flex items-start mt-10 justify-center text-7xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff] z-50">
+        {t("About Us")}
       </h2>
       <img src="/Header.png" alt="" className="absolute -top-60 left-0 -z-50" />
     </div>
