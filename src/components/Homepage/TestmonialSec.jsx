@@ -4,7 +4,7 @@ const TestmonialSec = (Props) => {
       <div className="flex items-center justify-between">
         <img src="/Vector.svg" alt="" />
         <div className="flex items-center">
-          <img src="/Star-3.png" alt="" className="mr-2" />
+          <img src="/Star-3.png" alt="" className="me-3" />
           <p className="text-xs text-[#AFAFAF]">{`(4.8/5)`}</p>
         </div>
       </div>

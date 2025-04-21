@@ -10,7 +10,9 @@ export const LocaleSwitcher = () => {
   };
   return (
     <button
-      onClick={() => changeLanguage(i18n.language === "ar" ? "en" : "ar")}
+      onClick={() => {
+        changeLanguage(i18n.language === "ar" ? "en" : "ar");
+      }}
       className="cursor-pointer"
     >
       <GlobalIcon />

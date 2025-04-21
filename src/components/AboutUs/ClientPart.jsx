@@ -6,7 +6,7 @@ const ClientPart = (Props) => {
         <p className="text-xs">{Props.per}</p>
       </div>
       <div className="w-full h-4 relative  rounded-full bg-gray-600 overflow-hidden">
-        <div className={Props.className}></div>
+        <div className={Props.className} />
       </div>
     </div>
   );
