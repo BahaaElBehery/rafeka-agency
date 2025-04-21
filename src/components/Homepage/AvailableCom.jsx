@@ -13,7 +13,7 @@ const AvailableCom = (Props) => {
         {Props.three}
       </p>
 
-      <button className={Props.four}>{Props.five}</button>
+      <button className={Props.four + " cursor-pointer"}>{Props.five}</button>
     </div>
   );
 };

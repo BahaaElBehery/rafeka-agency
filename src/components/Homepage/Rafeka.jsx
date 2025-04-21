@@ -11,16 +11,16 @@ const Rafeka = () => {
       </h2>
 
       <div className=" flex mt-10 gap-3  px-4 flex-wrap" dir="ltr">
-        <Link to={`https://www.facebook.com/Rafekaagency`}>
+        <Link target="_blank" to={`https://www.facebook.com/Rafekaagency`}>
           <FooterB text="facebook" />
         </Link>
-        <Link to={`https://www.instagram.com/rafekaagency`}>
+        <Link target="_blank" to={`https://www.instagram.com/rafekaagency`}>
           <FooterB text="instagram" />
         </Link>
-        <Link>
+        <Link target="_blank">
           <FooterB text="Linkedin" />
         </Link>
-        <Link to={`https://www.behance.net/RAFEKA`}>
+        <Link target="_blank" to={`https://www.behance.net/RAFEKA`}>
           <FooterB text="Behance" />
         </Link>
       </div>
