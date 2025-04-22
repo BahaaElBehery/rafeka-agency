@@ -5,7 +5,7 @@ const HowCom = ({ title, p }) => {
   return (
     <>
       <div
-        className={`w-[80%] max-md:w-full flex items-center justify-between px-5 border mt-5 py-2 rounded-full ${
+        className={`w-[80%] max-md:w-full max-w-[1920px] flex items-center justify-between px-5 border mt-5 py-2 rounded-full cursor-pointer ${
           visibility ? "border-red-500" : "border-gray-500"
         }`}
         onClick={() => setVisibility(!visibility)}

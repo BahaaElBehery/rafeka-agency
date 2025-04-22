@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <div
-      className="w-11/12 max-lg:justify-between max-lg:px-8 mx-auto flex items-center justify-around py-10 z-50 relative"
+      className="w-11/12 max-w-[1920px] max-lg:justify-between max-lg:px-8 mx-auto flex items-center justify-around py-10 z-50 relative"
       dir="ltr"
     >
       <div className="">

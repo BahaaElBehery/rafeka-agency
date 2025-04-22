@@ -5,7 +5,7 @@ const GridSection = () => {
   const { t } = useTranslation(`translation`);
   return (
     <div
-      className="w-10/12 mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-5 mt-20"
+      className="w-10/12 max-w-[1920px] mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-5 mt-20"
       dir="ltr"
     >
       <div className="col-span-2 max-lg:col-span-1">

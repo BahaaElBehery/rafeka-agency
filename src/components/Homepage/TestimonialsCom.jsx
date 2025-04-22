@@ -6,7 +6,7 @@ const TestimonialsCom = () => {
 
   return (
     <>
-      <div className="w-10/12 flex flex-col max-lg:items-center mx-auto mt-20">
+      <div className="w-10/12 flex flex-col max-lg:items-center mx-auto mt-20 max-w-[1920px]">
         <div className="flex items-center">
           <span className="w-5 h-[5px] bg-red-500 rounded-r-full rounded-l-full"></span>
           <h3 className="ms-5 text-lg">{t("Testimonials")}</h3>
