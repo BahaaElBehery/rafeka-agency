@@ -77,7 +77,7 @@ const Header = () => {
       </div>
 
       {popup && (
-        <div className="fixed top-0 left-0 w-screen h-screen bg-black/60 flex items-center justify-end ">
+        <div className="fixed top-0 left-0 w-screen h-screen bg-black/60 flex items-center justify-end z-50">
           <div
             className="bg-black/70 z-50 flex flex-col px-8 py-5 h-full text-white w-[300px] max-sm:w-[200px] max-sm:text-base  *:mt-5 *:w-fit"
             ref={popupRef}

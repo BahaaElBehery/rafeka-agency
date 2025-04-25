@@ -25,7 +25,7 @@ const Input = () => {
           required
         />
         <input
-          type="number"
+          type="text"
           placeholder={t("Phone Number")}
           className="border border-gray-500 py-3 px-8 rounded-xl outline-none"
           required
