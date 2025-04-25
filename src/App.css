@@ -96,10 +96,10 @@
   font-display: swap;
 }
 
-html[lang="en"] {
+html[lang="en"] body {
   font-family: "Neue Regrade" !important;
 }
 
-html[lang="ar"] {
+html[lang="ar"] body {
   font-family: "Expo Arabic" !important;
 }
