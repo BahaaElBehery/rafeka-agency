@@ -8,8 +8,18 @@ import NotFound from "./components/NotFound/NotFound";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Pricing from "./components/Pricing/Pricing";
 import Home from "./components/Homepage/HomePage";
+import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 function App() {
+  const {
+    i18n: { language },
+  } = useTranslation("");
+  useEffect(() => {
+    document.body.style.direction = language === "ar" ? "rtl" : "ltr";
+    document.documentElement.lang = language;
+  }, [language]);
+
   return (
     <BrowserRouter>
       <Routes>

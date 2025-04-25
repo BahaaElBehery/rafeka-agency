@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Regular.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade Regular.otf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -10,7 +11,8 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Regular Italic.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade Regular Italic.otf") format("truetype");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -18,7 +20,8 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Light.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade Light.otf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -26,7 +29,8 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Light Italic.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade Light Italic.otf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -34,7 +38,8 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Medium.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade Medium.otf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -42,7 +47,8 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Semibold.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade Semibold.otf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -50,7 +56,8 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade SemiBold Italic.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade SemiBold Italic.otf") format("truetype");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -58,7 +65,7 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Bold.otf") format("opentype");
+  src: local("Neue Regrade"), url("./fonts/Regrade Bold.otf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -66,7 +73,8 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Bold Italic.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade Bold Italic.otf") format("truetype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -74,15 +82,17 @@
 
 @font-face {
   font-family: "Neue Regrade";
-  src: url("./fonts/Regrade Extrabold.otf") format("opentype");
+  src: local("Neue Regrade"),
+    url("./fonts/Regrade Extrabold.otf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Neue Regrade";
-  src: url("./fonts/Regrade ExtraBold Italic.otf") format("opentype");
+  font-family: "Expo Arabic";
+  src: local("Expo Arabic"),
+    url("./fonts/Regrade ExtraBold Italic.otf") format("truetype");
   font-weight: 800;
   font-style: italic;
   font-display: swap;
@@ -90,7 +100,8 @@
 
 @font-face {
   font-family: "Expo Arabic";
-  src: url("./fonts/ExpoArabic-Book.ttf") format("opentype");
+  src: local("Expo Arabic"),
+    url("./fonts/ExpoArabic-Book.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
   font-display: swap;
