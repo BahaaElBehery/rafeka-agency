@@ -5,7 +5,7 @@ import { Link } from "react-router";
 const Rafeka = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="flex flex-col items-center mt-20 pb-32 overflow-x-hidden">
+    <div className="flex flex-col items-center mt-20 pb-32 overflow-x-hidden max-w-[1920px]">
       <h2 className="text-8xl max-lg:text-5xl max-sm:text-4xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff]">
         {t("Rafeka Agency")}
       </h2>

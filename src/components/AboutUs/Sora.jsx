@@ -4,7 +4,7 @@ const Sora = () => {
   const { t } = useTranslation(`translation`);
   return (
     <div
-      className="relative w-full h-[80vh] max-lg:h-[400px] bg-[url('/masterminds-1.png')] bg-no-repeat max-lg:bg-contain"
+      className="relative w-full -z-50 h-[80vh] max-lg:h-[400px] bg-[url('/masterminds-1.png')] bg-no-repeat max-lg:bg-contain"
       style={{ backgroundPosition: "bottom center" }}
     >
       <img

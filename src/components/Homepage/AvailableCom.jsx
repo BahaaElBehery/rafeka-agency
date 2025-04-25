@@ -1,6 +1,6 @@
 const AvailableCom = (Props) => {
   return (
-    <div className="w-11/12 mx-auto flex flex-col items-center justify-evenly mt-50 max-lg:mt-20 border p-5 py-20 rounded-2xl">
+    <div className="w-11/12  max-w-[1920px] mx-auto flex flex-col items-center justify-evenly mt-50 max-lg:mt-20 border p-5 py-20 rounded-2xl">
       <div className="flex items-center justify-center">
         <span className="w-5 h-[5px] bg-red-500 rounded-r-full rounded-l-full mt-2"></span>
         <h2 className="text-2xl mx-3 max-sm:text-xs">{Props.one}</h2>

@@ -4,7 +4,10 @@ import Succespart from "./Succespart";
 const KnowUs = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="w-9/12 mx-auto flex flex-col items-center" dir="ltr">
+    <div
+      className="w-9/12 max-w-[1920px] mx-auto flex flex-col items-center"
+      dir="ltr"
+    >
       <h2 className="text-7xl max-lg:text-5xl max-sm:text-3xl font-medium mt-20 text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff] text-center">
         {t("Get To Know Us Better")}
       </h2>

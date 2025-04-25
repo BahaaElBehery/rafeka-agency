@@ -32,7 +32,7 @@ const ChooseCo = ({ cards }) => {
   };
 
   return (
-    <div className="w-11/12 mx-auto mt-10">
+    <div className="w-11/12 mx-auto mt-10 max-w-[1920px]">
       <div
         className="grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-8"
         dir="ltr"

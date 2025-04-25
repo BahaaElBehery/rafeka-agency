@@ -4,7 +4,7 @@ import ClientPart from "./ClientPart";
 const ClientCo = (Props) => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="w-11/12 mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-10 mt-20">
+    <div className="w-11/12  max-w-[1920px] mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-10 mt-20">
       <div className="flex flex-col max-lg:items-center max-lg:order-2">
         <div className="flex items-center max-lg:hidden">
           <span className="w-5 rounded-r-full rounded-l-full h-[5px] bg-red-500"></span>

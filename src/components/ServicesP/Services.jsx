@@ -32,9 +32,7 @@ const Services = () => {
         img="/image-25.png"
         hide="hidden"
       />
-
       <HowitWorks />
-
       <AvailableCom
         one={t("Available For New Project")}
         two={t("Interested in Working Together?")}

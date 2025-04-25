@@ -4,7 +4,7 @@ import One from "./One";
 const HowitWorks = () => {
   const { t } = useTranslation(`translation`);
   return (
-    <div className="flex flex-col w-11/12 ms-auto mt-20">
+    <div className="flex flex-col w-11/12 max-w-[1920px] ms-auto mt-20">
       <div className="flex items-center max-lg:justify-center max-lg:mt-10">
         <span className="w-5 rounded-r-full rounded-l-full h-[5px] bg-red-500"></span>
         <h3 className="ms-3">{t("How it Works")}</h3>

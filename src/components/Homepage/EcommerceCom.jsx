@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const EcommerceCom = (Props) => {
   return (
-    <div className=" w-11/12 mx-auto grid grid-cols-3 max-lg:grid-cols-2 gap-2 max-lg:gap-10 mt-20 rtl:flex-row-reverse">
+    <div className=" max-w-[1920px] w-11/12 mx-auto grid grid-cols-3 max-lg:grid-cols-2 gap-2 max-lg:gap-10 mt-20 rtl:flex-row-reverse">
       <div className="col-span-2 max-lg:col-span-full p-3 flex flex-col max-lg:order-2">
         <h2 className="text-4xl max-lg:text-2xl max-lg:text-center">
           {Props.h2}
