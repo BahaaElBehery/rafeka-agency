@@ -17,33 +17,38 @@ const OutTeam = () => {
         <img
           src="/111.png"
           alt=""
-          className="border rounded-2xl mt-10 h-auto md:min-h-[500px] object-contain"
+          className="border rounded-2xl mt-10 h-auto md:max-h-[400px] object-contain"
         />
 
         <img
           src="/Huseyin ALOBAIED.png"
           alt=""
-          className="border rounded-2xl mt-10 h-auto md:min-h-[500px] object-contain"
+          className="border rounded-2xl mt-10 h-auto md:min-h-[400px] object-contain"
         />
         <img
           src="/Mohammed Yabrak.png"
           alt=""
-          className="border rounded-2xl mt-10 h-auto md:min-h-[500px] object-contain"
+          className="border rounded-2xl mt-10 h-auto md:min-h-[400px] object-contain"
         />
         <img
           src="/MANHAL Suliman.png"
           alt=""
-          className="border rounded-2xl mt-10 h-auto md:min-h-[500px] object-contain"
+          className="border rounded-2xl mt-10 h-auto md:min-h-[400px] object-contain"
         />
         <img
           src="/Muhammed AlHamad.png"
           alt=""
-          className="border rounded-2xl mt-10 h-auto md:min-h-[500px] object-contain"
+          className="border rounded-2xl mt-10 h-auto md:min-h-[400px] object-contain"
         />
         <img
           src="/Khalil AlFawaz.png"
           alt=""
-          className="border rounded-2xl mt-10 h-auto md:min-h-[500px] object-contain"
+          className="border rounded-2xl mt-10 h-auto md:min-h-[400px] object-contain"
+        />
+        <img
+          src="/Eslam Ibrahim.png"
+          alt=""
+          className="border rounded-2xl mt-10 h-auto md:min-h-[400px] object-contain"
         />
       </div>
     </div>

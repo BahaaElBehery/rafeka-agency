@@ -4,13 +4,19 @@ const Sora = () => {
   const { t } = useTranslation(`translation`);
   return (
     <div
-      className="relative w-full  h-[80vh] max-lg:h-[400px] bg-[url('/masterminds-1.png')] bg-no-repeat max-lg:bg-contain"
+      className="relative w-full  h-[80vh] max-lg:h-[400px] max-lg:bg-contain"
       style={{ backgroundPosition: "bottom center" }}
     >
       <img
         src="/Line-BG.png"
         alt=""
-        className="absolute inset-0 w-full h-full py-10 -z-[100]  max-lg:hidden"
+        className="absolute inset-0 w-full h-full py-10 -z-[100] max-lg:hidden"
+      />
+
+      <img
+        src="/all-team.png"
+        alt=""
+        className="translate-y-13 w-full h-full object-contain"
       />
 
       {/* Centered Text */}
