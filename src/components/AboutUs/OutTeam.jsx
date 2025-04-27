@@ -15,7 +15,7 @@ const OutTeam = () => {
 
       <div className="w-9/12 max-sm:w-11/12 mx-auto grid grid-cols-2 max-lg:grid-cols-1 gap-6 max-sm:gap-0 mt-20 *:w-[90%] *:max-sm:w-full">
         <img
-          src="/111.png"
+          src="/Omar-Ghalib.png"
           alt=""
           className="border rounded-2xl mt-10 h-auto md:max-h-[400px] object-contain"
         />
