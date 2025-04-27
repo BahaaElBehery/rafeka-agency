@@ -44,7 +44,7 @@ const VideoCo = () => {
           src="/New folder/VideoCo.mp4"
           className="w-full h-full cursor-pointer rounded-2xl"
           onClick={togglePlayPause}
-          poster="/public/فيديو.png"
+          poster="/فيديو.png"
         />
 
         {shouldShowButton && (
