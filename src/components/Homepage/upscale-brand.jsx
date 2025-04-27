@@ -4,7 +4,7 @@ const UpscaleBrand = () => {
   const { t } = useTranslation("translation");
   return (
     <div className="mt-36  flex flex-col items-center relative">
-      <h2 className="text-8xl max-sm:text-3xl max-lg:text-5xl max-w-[700px] text-center font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff] px-5">
+      <h2 className="text-8xl  max-sm:text-3xl max-lg:text-5xl max-w-[700px] text-center font-medium text-transparent bg-clip-text bg-gradient-to-r from-[#737b7e] to-[#ffffff] px-5">
         {t("Upscale Your Brand")}
       </h2>
       <p className="text-[#AFAFAF] mt-10 text-center text-lg max-lg:hidden">
